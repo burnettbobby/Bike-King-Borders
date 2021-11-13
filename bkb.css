@@ -379,7 +379,7 @@
 
 .cell-1{
   grid-area: header;
-  width: max-content;
+  width: 100%;
   height: auto;
   display: grid;
 }
