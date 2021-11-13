@@ -382,6 +382,7 @@
   min-width: 600px;
   max-height: 300px;
   display: grid;
+  font-size: 1rem;
 }
 
 .cell-2{
