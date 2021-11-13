@@ -358,6 +358,7 @@
 .cell {
    text-align: center;
    padding:1vw;
+   max-width: 1200px;
 
 }
 
