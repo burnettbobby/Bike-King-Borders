@@ -370,11 +370,9 @@
   grid-template-columns: auto auto auto auto;
   grid-template-rows: 1fr 1fr;
   grid-template-areas: 
-  "header header"
-  "left"
-  "right"
-  "footer"
-  "footer";
+  "header header left"
+  "right footer footer" ;
+  
    
 }
 
