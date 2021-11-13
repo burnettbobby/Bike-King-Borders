@@ -372,7 +372,7 @@
   grid-template-rows: auto auto auto ;
   grid-template-areas:
   "header header header" 
-  ". left right . "
+  "left left right right "
   "footer footer footer";
   }
 
@@ -386,11 +386,9 @@
   width: 200vw;
   
 }
-
 .cell-3{
   grid-area: right;
- 
-}
+ }
 
 .cell-4{
   grid-area: footer;
