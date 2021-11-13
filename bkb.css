@@ -371,7 +371,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: auto auto auto auto ;
   grid-template-areas:
-  "header" 
+  "header header header header" 
   "left" 
   "right"
   "footer";
