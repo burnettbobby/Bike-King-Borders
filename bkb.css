@@ -380,6 +380,7 @@
 .cell-1{
   grid-area: header;
   width: max-content;
+  height: auto;
 }
 
 .cell-2{
