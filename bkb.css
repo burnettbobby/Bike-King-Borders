@@ -386,6 +386,7 @@
 .cell-1{
   width: 100vh;
   padding:none;
+  justify-content: flex-end;
 }
 .cell-4{
   width: 100%;
