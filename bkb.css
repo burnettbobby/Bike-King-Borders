@@ -387,11 +387,12 @@
 .cell-2{
   grid-area: left;
   display: grid;
-  width: max-content;
+  width: 50%;
 }
 .cell-3{
   grid-area: right;
   display: grid;
+  width: 50%;
  }
 
 .cell-4{
