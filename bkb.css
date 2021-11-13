@@ -332,14 +332,12 @@
 .cell-2 {
   
   grid-area: left;
-  width: 100%;
 
 }
 
 .cell-3 {
 
   grid-area: right;
-  width: 100%;
    
 }
 .cell-4, footer {
@@ -378,14 +376,15 @@
 .cell-3{
   padding: none;
 }
+.cell-2{
+  padding: none;
+}
 .cell-1{
   width: 100vh;
 }
 .cell-4{
   width: 100vh;
 }
-.cell{
 
-}
 
 }
