@@ -380,7 +380,7 @@
 .cell-1{
   grid-area: header;
   min-width: 600px;
-  max-height: 380px;
+  min-height: 380px;
   display: grid;
   margin-top: 2px;
   font-weight: lighter;
@@ -406,8 +406,8 @@
 
 .gallery_container{
   min-width: 600px;
-  min-height: 900px;
-  padding: 2rem;
+  min-height: 1200px;
+  padding: 1rem;
 }
 
 }
