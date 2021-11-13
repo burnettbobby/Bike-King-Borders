@@ -375,5 +375,10 @@
   "right right"
   "footer footer footer footer";
   }
-
+.cell-2{
+  width:50%;
+}
+.cell-3{
+  width: 100%;
+}
 }
