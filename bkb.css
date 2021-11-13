@@ -379,7 +379,7 @@
 
 .cell-1{
   grid-area: header;
-  width: 600px;
+  max-width: 1200px;
   height: auto;
   display: grid;
 }
@@ -387,7 +387,7 @@
 .cell-2{
   grid-area: left;
   display: grid;
-  width: 50%;
+  width: 60%;
 }
 .cell-3{
   grid-area: right;
@@ -397,8 +397,17 @@
 
 .cell-4{
   grid-area: footer;
-  width: 600px;
+  max-width: 1200px;
   display: grid;
 }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(12, 5vw);
+  max-width: 1200px;
+  padding:2rem;
+  grid-gap: 0.5rem;
+  }
 
 }
