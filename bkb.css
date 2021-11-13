@@ -380,7 +380,7 @@
 .cell-1{
   grid-area: header;
   min-width: 600px;
-  max-height: 380px;
+  max-height: 400px;
   display: grid;
   margin:none;
   padding: none;
@@ -391,11 +391,13 @@
 }
 
 .cell-2{
+  margin-top: 2px;
   grid-area: left;
   display: grid;
   min-width: 300px;
 }
 .cell-3{
+  margin-top: 2px;
   grid-area: right;
   display: grid;
   min-width: 300px;
