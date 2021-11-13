@@ -368,7 +368,7 @@
   
 .container_1 {
   grid-template-columns: auto auto auto auto auto auto;
-  grid-template-rows: auto auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto;
   grid-template-areas:
   "header header header header" 
   "left left left left"
