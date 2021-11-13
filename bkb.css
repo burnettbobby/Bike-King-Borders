@@ -367,7 +367,7 @@
 {
   
 .container_1 {
-  grid-template-columns: auto;
+  grid-template-columns: 100vw;
   grid-template-rows: auto auto auto auto auto ;
   grid-template-areas:
   "header header header header header header header" 
