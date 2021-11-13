@@ -368,7 +368,7 @@
 .container_1 {
   min-height: auto;
   min-width: auto;
-  transform: scale(2);
+  transform: scale(1);
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto auto auto ;
   grid-template-areas:
