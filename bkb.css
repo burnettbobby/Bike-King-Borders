@@ -401,13 +401,9 @@
   display: grid;
 }
 
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(12, 5vw);
-  max-width: 1200px;
-  padding:2rem;
-  grid-gap: 0.5rem;
-  }
+.gallery_container{
+  width: 1200px;
+  height: 1000px;
+}
 
 }
