@@ -380,9 +380,9 @@
 .cell-1{
   grid-area: header;
   min-width: 600px;
-  max-height: 300px;
+  max-height: 380px;
   display: grid;
-  font-size: 1rem;
+  font-size: 3px;
   text-align: left;
 }
 
