@@ -379,8 +379,8 @@
 
 .cell-1{
   grid-area: header;
-  min-width: 1200px;
-  max-height: 300px;
+  min-width: 600px;
+  max-height: 200px;
   height: auto;
   display: grid;
 }
@@ -398,12 +398,12 @@
 
 .cell-4{
   grid-area: footer;
-  max-width: 1200px;
+  max-width: 600px;
   display: grid;
 }
 
 .gallery_container{
-  max-width: 1200px;
+  max-width: 600px;
   max-height: 1200px;
   padding: 4rem;
 }
