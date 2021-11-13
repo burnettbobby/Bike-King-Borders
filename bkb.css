@@ -318,7 +318,7 @@
   margin-right: 0.1rem;
   
 }
-.cell-1 header{
+.cell-1, header{
   
   grid-area: header;
   background-image:url(images/forest.jpg);
