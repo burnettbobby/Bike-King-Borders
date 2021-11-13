@@ -379,7 +379,7 @@
 
 .cell-1{
   grid-area: header;
-  width: 100%;
+  width: 600px;
   height: auto;
   display: grid;
 }
@@ -397,7 +397,7 @@
 
 .cell-4{
   grid-area: footer;
-  width: 100%;
+  width: 600px;
   display: grid;
 }
 
