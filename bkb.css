@@ -378,6 +378,7 @@
 
 .cell-1{
   grid-area: header;
+  width: max-content;
 }
 
 .cell-2{
@@ -390,6 +391,7 @@
 
 .cell-4{
   grid-area: footer;
+  width: max-content;
 }
 
 }
