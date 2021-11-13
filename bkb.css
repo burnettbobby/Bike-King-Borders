@@ -369,7 +369,7 @@
   min-height: auto;
   min-width: auto;
   transform: scale(1);
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto auto auto;
   grid-template-areas:
   "header header header header" 
