@@ -367,7 +367,6 @@
 {
   
 .container_1 {
-  transform: scale(2);
   grid-template-columns: 1fr;
   grid-template-rows: auto auto auto auto ;
   grid-template-areas:
