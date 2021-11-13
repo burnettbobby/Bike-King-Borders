@@ -362,5 +362,57 @@
    text-align: center;
    padding:1vw;
 
+}
+.burger-nav {
+  display: block;
+  height: 40px;
+  width: 100%;
+  background: url(https://img.icons8.com/ios-filled/50/000000/menu--v4.png) no-repeat 98% center;
+  background-image: url(https://img.icons8.com/ios-filled/50/000000/menu--v4.png);
+  background-position-x: 98%;
+  background-position-y: center;
+  background-size: 2.5rem;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  background-size: 2.5rem;
+  cursor:pointer;
+}
+
+
+@media screen and (max-width: 800px){
+.burger-nav {
+    display: block;
+    height: 40px;
+    width: 100%;
+    background: url(https://img.icons8.com/ios-filled/50/000000/menu--v4.png) no-repeat 98% center;
+    background-image: url(https://img.icons8.com/ios-filled/50/000000/menu--v4.png);
+    background-position-x: 98%;
+    background-position-y: center;
+    background-size: 2.5rem;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background-size: 2.5rem;
+    cursor:pointer;
+}
+.container_1 {
+  transform: scale(0.5);
+  transform-origin: 0 0;
+  display: grid;
+  min-height: 90vh;
+  min-width: 90vw;
+  grid-template-areas: 
+  "header header"
+  "left right"
+  "footer footer";
+  grid-template-rows: 0.5fr 3fr 0.1fr;
+  grid-template-columns: 1fr 1fr;
+  background-image: linear-gradient(rgb(236, 241, 236),rgb(58, 78, 58));
+  font-family: 'Roboto', sans-serif;
+  margin-right: 0.1rem;
   
+}
 }
