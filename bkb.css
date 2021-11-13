@@ -372,7 +372,7 @@
   grid-template-rows: auto auto auto ;
   grid-template-areas:
   "header header header header" 
-  ". left right ."
+  "left left right right"
   "footer footer footer footer";
   }
 
