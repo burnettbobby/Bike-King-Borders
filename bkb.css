@@ -363,6 +363,23 @@
 }
 
 @media only screen and (max-width: 600px){
+    
+.container_1 {
+   display: grid;
+  min-height: auto;
+  min-width: auto;
+  grid-template-areas: 
+  "header header"
+  "left right"
+  "footer footer";
+  grid-template-rows: 0.5fr 3fr 0.1fr;
+  grid-template-columns: 1fr 1fr;
+  background-image: linear-gradient(rgb(236, 241, 236),rgb(58, 78, 58));
+  font-family: 'Roboto', sans-serif;
+  margin-right: 0.1rem;
+  
+}
+
   
 
 
