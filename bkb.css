@@ -372,9 +372,9 @@
   grid-template-rows: auto auto auto auto ;
   grid-template-areas:
   "header header header header" 
-  "left" 
-  "right"
-  "footer";
+  "left left left left" 
+  "right right right right"
+  "footer footer footer footer";
    }
 .cell-3{
   padding: none;
