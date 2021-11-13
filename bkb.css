@@ -369,17 +369,15 @@
 .container_1 {
   transform: scale(0.2);
   transform-origin: 0 0;
-  display: grid;
-  min-height: 300px;
-  min-width: 100px;
-  grid-template-areas: 
-  "header header"
-  "left right"
-  "footer footer";
-  grid-template-rows: 0.5fr 3fr 0.1fr;
-  grid-template-columns: 1fr 1fr;
-  background-image: linear-gradient(rgb(236, 241, 236),rgb(58, 78, 58));
-  font-family: 'Roboto', sans-serif;
-  }
+   grid-template-areas: 
+  "header"
+  "header"
+  "left"
+  "right"
+  "footer"
+   "footer";
+  grid-template-rows: auto auto auto auto auto auto;
+  grid-template-columns: 1fr;
+}
 
 }
