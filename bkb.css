@@ -371,9 +371,9 @@
   grid-template-columns: auto auto   ;
   grid-template-rows: auto auto auto ;
   grid-template-areas:
-  "header header" 
-  "left right"
-  "footer footer ;
+  "header header header header" 
+  ". left right . "
+  "footer footer footer footer;
   }
 
 .cell-1{
