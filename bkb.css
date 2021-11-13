@@ -377,7 +377,7 @@
   }
 
 .cell-1{
-  width:100vw;
+  width:100%;
   grid-area: header;
 }
 
@@ -390,7 +390,7 @@
 }
 
 .cell-4{
-  width: 100vw;
+  width: 100%;
   grid-area: footer;
 }
 }
