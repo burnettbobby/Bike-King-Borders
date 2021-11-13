@@ -363,6 +363,7 @@
 
 }
 
+
 @media screen and (max-width: 600px)
 {
   
@@ -379,6 +380,10 @@
 .cell-1{
   grid-area: header;
   width: max-content;
+}
+
+.mainimage{
+  width: 200wh;
 }
 
 .cell-2{
