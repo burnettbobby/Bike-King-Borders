@@ -370,7 +370,7 @@
   transform: scale(4);
   transform-origin: 0 0;
   display: grid;
-  min-height: 900px;
+  min-height: 300px;
   min-width: 900px;
   grid-template-areas: 
   "header header"
