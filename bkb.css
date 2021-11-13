@@ -397,7 +397,7 @@
 
 .cell-4{
   grid-area: footer;
-  width: max-content;
+  width: 100%;
   display: grid;
 }
 
