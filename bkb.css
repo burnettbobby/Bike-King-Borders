@@ -367,14 +367,13 @@
 {
   
 .container_1 {
-  grid-template-columns: auto auto auto aut;
+  grid-template-columns: auto auto auto auto;
   grid-template-rows: auto auto auto auto auto auto ;
   grid-template-areas:
   "header header header header left" 
   "right right"
   "right right .."
-   "footer footer footer footer" ;
-  
+   "footer footer footer footer";
    }
 
 }
