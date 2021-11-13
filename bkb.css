@@ -366,13 +366,13 @@
   
 .container_1 {
   transform: scale(2);
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto auto auto ;
   grid-template-areas:
-  "header header " 
-  "right right" 
+  "header header header header" 
   "left left" 
-  "footer footer";
+  "right right" 
+  "footer footer footer footer";
    }
 
   .cell-2{
