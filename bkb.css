@@ -302,11 +302,11 @@
 }
 
 .container_1 {
-  transform: scale(1.1);
+  transform: scale(1);
   transform-origin: 0 0;
   display: grid;
-  min-height: 90vh;
-  min-width: 90vw;
+  min-height: 100vh;
+  min-width: 100vw;
   grid-template-areas: 
   "header header"
   "left right"
@@ -315,9 +315,8 @@
   grid-template-columns: 1fr 1fr;
   background-image: linear-gradient(rgb(236, 241, 236),rgb(58, 78, 58));
   font-family: 'Roboto', sans-serif;
-  margin-right: 0.1rem;
-  
-}
+  }
+
 .cell-1, header{
   
   grid-area: header;
@@ -328,7 +327,7 @@
   box-shadow: 0 0 20px rgb(7, 7, 7);
   border-bottom-left-radius: 6rem;
   border-bottom-right-radius: 6rem;
-  width: 90vw;
+  width: 100vw;
 }
 .cell-2 {
   
@@ -352,7 +351,7 @@
   font-size: 1.2rem;
   font-weight: bolder;
   display: flex;
-  width: 90vw;
+  width: 100vw;
   padding-top: 3rem;
   position: fixed;
   justify-content:center;
@@ -363,47 +362,16 @@
    padding:1vw;
 
 }
-.burger-nav {
-  display: block;
-  height: 40px;
-  width: 100%;
-  background: url(https://img.icons8.com/ios-filled/50/000000/menu--v4.png) no-repeat 98% center;
-  background-image: url(https://img.icons8.com/ios-filled/50/000000/menu--v4.png);
-  background-position-x: 98%;
-  background-position-y: center;
-  background-size: 2.5rem;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: initial;
-  background-size: 2.5rem;
-  cursor:pointer;
-}
 
-
-@media screen and (max-width: 800px){
-.burger-nav {
-    display: block;
-    height: 40px;
-    width: 100%;
-    background: url(https://img.icons8.com/ios-filled/50/000000/menu--v4.png) no-repeat 98% center;
-    background-image: url(https://img.icons8.com/ios-filled/50/000000/menu--v4.png);
-    background-position-x: 98%;
-    background-position-y: center;
-    background-size: 2.5rem;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial;
-    background-size: 2.5rem;
-    cursor:pointer;
-}
+@media screen and (max-width: 900px)
+{
+  
 .container_1 {
-  transform: scale(0.5);
+  transform: scale(0.2);
   transform-origin: 0 0;
   display: grid;
-  min-height: 90vh;
-  min-width: 90vw;
+  min-height: 100vh;
+  min-width: 100vw;
   grid-template-areas: 
   "header header"
   "left right"
@@ -412,7 +380,6 @@
   grid-template-columns: 1fr 1fr;
   background-image: linear-gradient(rgb(236, 241, 236),rgb(58, 78, 58));
   font-family: 'Roboto', sans-serif;
-  margin-right: 0.1rem;
-  
-}
+  }
+
 }
