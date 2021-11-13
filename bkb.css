@@ -384,6 +384,7 @@
 
 .cell-2{
   grid-area: left;
+  display: grid;
   
 }
 .cell-3{
