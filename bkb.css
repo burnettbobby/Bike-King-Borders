@@ -365,22 +365,24 @@
 {
   
 .container_1 {
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto auto auto ;
   grid-template-areas:
-  "header header header header" 
+  ". header header ." 
   "left left left left" 
   "right right right right"
   "footer footer footer footer";
    }
+
+  .cell-2{
+    padding: none;
+    width: 100%;
+  }
 .cell-3{
   padding: none;
   margin: none;
 }
-.cell-2{
-  padding: none;
-  width: 100%;
-}
+
 .cell-1{
   width: 100%;
 }
