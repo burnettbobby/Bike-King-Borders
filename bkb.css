@@ -370,9 +370,10 @@
   min-width: auto;
   grid-template-areas: 
   "header header"
-  "left right"
+  "left"
+  "right"
   "footer footer";
-  grid-template-rows: 0.2fr 2fr 0.1fr;
+  grid-template-rows: 0.2fr 2fr 2fr 0.1fr;
   grid-template-columns: 1fr 1fr;
   background-image: linear-gradient(rgb(236, 241, 236),rgb(58, 78, 58));
   font-family: 'Roboto', sans-serif;
