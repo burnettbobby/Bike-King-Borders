@@ -383,11 +383,12 @@
 
 .cell-2{
   grid-area: left;
-  width: 100vw;
+  
 }
 
 .cell-3{
   grid-area: right;
+  width: 100vh;
 }
 
 .cell-4{
