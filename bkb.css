@@ -375,10 +375,17 @@
   "right right"
   "footer footer";
   }
+
+.cell-1{
+  width:100%;
+}
 .cell-2{
   width:50%;
 }
 .cell-3{
   width: 50%;
+}
+.cell-4{
+  width: 100%;
 }
 }
