@@ -377,10 +377,18 @@
   }
 
 .cell-1{
-  width:100vh;
+  width:100vw;
+}
+
+.cell-2{
+  width: 50vw;
+}
+
+.cell-3{
+  width: 50vw;
 }
 
 .cell-4{
-  width: 100%;
+  width: 100vw;
 }
 }
