@@ -339,7 +339,7 @@
 .cell-3 {
 
   grid-area: right;
-  width: 40vw;
+  width: 100%;
    
 }
 .cell-4, footer {
