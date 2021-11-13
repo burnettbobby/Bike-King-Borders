@@ -367,9 +367,7 @@
 {
   
 .container_1 {
-  transform: scale(0.2);
-  transform-origin: 0 0;
-   grid-template-areas: 
+  grid-template-areas: 
   "header"
   "header"
   "left"
