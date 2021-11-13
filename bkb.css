@@ -376,5 +376,7 @@
   "right right"
    "footer footer footer footer";
    }
-
+.cell-3{
+  padding: none;
+}
 }
