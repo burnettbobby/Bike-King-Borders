@@ -380,7 +380,7 @@
 .cell-1{
   grid-area: header;
   min-width: 600px;
-  min-height: 380px;
+  max-height: 380px;
   display: grid;
   margin:none;
   padding: none;
