@@ -381,20 +381,23 @@
   grid-area: header;
   width: max-content;
   height: auto;
+  display: grid;
 }
 
 .cell-2{
   grid-area: left;
-  display: flex;
+  display: grid;
   
 }
 .cell-3{
   grid-area: right;
+  display: grid;
  }
 
 .cell-4{
   grid-area: footer;
   width: max-content;
+  display: grid;
 }
 
 }
