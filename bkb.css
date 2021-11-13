@@ -382,12 +382,10 @@
 }
 
 .cell-2{
-  width: 50vw;
   grid-area: left;
 }
 
 .cell-3{
-  width: 50vw;
   grid-area: right;
 }
 
