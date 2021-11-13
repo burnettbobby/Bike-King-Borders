@@ -383,6 +383,7 @@
   max-height: 300px;
   display: grid;
   font-size: 1rem;
+  text-align: left;
 }
 
 .cell-2{
