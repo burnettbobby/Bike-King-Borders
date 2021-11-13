@@ -382,8 +382,8 @@
   min-width: 600px;
   max-height: 380px;
   display: grid;
-  font-size: 3px;
-  text-align: left;
+  margin-top: 2px;
+
 }
 
 .cell-2{
