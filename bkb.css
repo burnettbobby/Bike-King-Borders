@@ -370,8 +370,8 @@
   grid-template-rows: auto auto auto auto ;
   grid-template-areas:
   "header header " 
-  "left left" 
   "right right" 
+  "left left" 
   "footer footer";
    }
 
