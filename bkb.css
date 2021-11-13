@@ -367,11 +367,11 @@
 {
   
 .container_1 {
-  transform: scale(0.2);
+  transform: scale();
   transform-origin: 0 0;
   display: grid;
-  min-height: 100vh;
-  min-width: 100vw;
+  min-height: 900px;
+  min-width: 900px;
   grid-template-areas: 
   "header header"
   "left right"
