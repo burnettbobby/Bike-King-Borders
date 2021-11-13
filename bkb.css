@@ -381,7 +381,6 @@
   grid-area: header;
   min-width: 600px;
   max-height: 300px;
-  height: auto;
   display: grid;
 }
 
@@ -403,9 +402,9 @@
 }
 
 .gallery_container{
-  max-width: 600px;
-  max-height: 1200px;
-  padding: 4rem;
+  min-width: 600px;
+  max-height: 200px;
+  padding: 2rem;
 }
 
 }
