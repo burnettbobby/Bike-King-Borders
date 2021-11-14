@@ -404,7 +404,7 @@
  }
 
 .cell-4{
-  grid-area: footer footer footer footer;
+  grid-area: footer;
   min-width: 1200px;
   display: grid;
   margin: none;
