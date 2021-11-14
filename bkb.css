@@ -364,7 +364,7 @@
 }
 
 
-@media screen and (max-width: 600px)
+@media screen and (max-width: 1200px)
 {
   
 .container_1 {
@@ -393,18 +393,18 @@
   margin-top: 2px;
   grid-area: left;
   display: grid;
-  min-width: 300px;
+  min-width: 600px;
 }
 .cell-3{
   margin-top: 2px;
   grid-area: right;
   display: grid;
-  min-width: 300px;
+  min-width: 600px;
  }
 
 .cell-4{
   grid-area: footer;
-  max-width: 600px;
+  min-width: 600px;
   display: grid;
 }
 
