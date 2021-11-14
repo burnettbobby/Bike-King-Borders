@@ -416,7 +416,7 @@
 
 .gallery_container{
   min-width: 1200px;
-  max-height: auto;
+  max-height: 1200px;
   padding: none;
   margin:none;
 }
