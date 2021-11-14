@@ -396,7 +396,7 @@
   }
   .nav .responsive a {
     float: none;
-    display: block;
+    display: none;
     text-align: right;
   }
 
@@ -442,7 +442,6 @@
 }
 @media screen and (min-width: 600px){
   .nav a.icon {
-    float: right;
     display: none;
   }
 
