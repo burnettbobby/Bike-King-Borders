@@ -367,7 +367,7 @@
 }
 
 
-@media screen and (max-width: 600px)
+@media screen and (max-width: 1200px)
 {
 .container_1 {
   max-height: 100%;
@@ -382,7 +382,7 @@
 
 .cell-1{
   grid-area: header;
-  min-width: 800px;
+  min-width: 1200px;
   min-height: 200px;
   display: grid;
   margin:none;
@@ -395,22 +395,22 @@
   margin-top: 4px;
   grid-area: left;
   display: grid;
-  min-width: 300px;
+  min-width: 600px;
 }
 .cell-3{
   margin-top: 2px;
   grid-area: right;
   display: grid;
-  min-width: 300px;
+  min-width: 600px;
  }
 
 .cell-4{
   grid-area: footer;
-  min-width: 800px;
+  min-width: 1200px;
   display: grid;
   margin: none;
   padding: none;
-  max-height: -200px;
+  max-height: 200px;
 }
 
 .gallery_container{
