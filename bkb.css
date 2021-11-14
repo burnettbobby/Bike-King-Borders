@@ -382,7 +382,7 @@
 
 .cell-1{
   grid-area: header;
-  min-width: 1200px;
+  min-width: 800px;
   min-height: 200px;
   display: grid;
   margin:none;
@@ -406,7 +406,7 @@
 
 .cell-4{
   grid-area: footer;
-  min-width: 1200px;
+  min-width: 800px;
   display: grid;
   margin: none;
   padding: none;
@@ -414,7 +414,7 @@
 }
 
 .gallery_container{
-  min-width: 1000px;
+  min-width: 700px;
   padding: 2px;
   margin:none;
 }
