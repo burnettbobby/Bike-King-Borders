@@ -103,11 +103,11 @@
   text-indent: -9999px;
 }
 
-#textboxid{
+.textboxid{
   font-size: 100px;
 }
 
-#signupstyle{
+.signupstyle{
   font-size:100px;
   text-align: center;
   font-weight: bolder;
@@ -227,7 +227,7 @@
 }
 
 
-#circle{
+.circle{
   background: rgb(247, 252, 235);
   border-radius: 50%;
   width: 580px;
@@ -239,7 +239,7 @@
   margin-bottom:2rem;
 }
 
-#elipse{
+.elipse{
   background: rgb(247, 252, 235);
   border-radius: 50%;
   width: 45rem;
@@ -248,7 +248,7 @@
   border: solid 5px black;
   box-shadow: 10px 10px  yellow;
 }
-#serviceright{
+.serviceright{
   width: 0;
   height: 0;
   border-top: 100px solid transparent;
@@ -257,7 +257,7 @@
   padding-right: 0px;
 }
 
-#servicedown{
+.servicedown{
   width: 0;
   height: 0;
   border-left: 100px solid transparent;
@@ -273,7 +273,6 @@
 
 #rightarrows{
   padding-bottom: 20rem;
-  align-items: right;
 
 }
 #input{
@@ -295,7 +294,6 @@
   background-color:rgb(247, 223, 9);
   font-family: 'Roboto', sans-serif;
   font-size: 40px;
-  border-style:solid 3px black;
   color: black;
   box-shadow: 20px 20px 20px black;
 
@@ -368,7 +366,6 @@
 @media screen and (max-width: 600px)
 {
 .container_1 {
-  max-width: auto;
   max-height: max-content;
   grid-template-columns: auto auto  ;
   grid-template-rows: auto auto auto ;
@@ -383,8 +380,6 @@
   min-width: 1200px;
   min-height: 200px;
   display: grid;
-  margin:none;
-  padding: none;
   font-weight: bold;
   overflow-wrap: break-word;
   font-size: 2rem;
@@ -411,9 +406,6 @@
   grid-area: footer;
   min-width: 1200px;
   display: flex;
-  margin: none;
-  padding: none;
-  max-height: auto;
 }
 
 .gallery_container{
