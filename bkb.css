@@ -399,7 +399,7 @@
 .cell-1{
   grid-area: header;
   min-width: 900px;
-  min-height: 300px;
+  min-height: 200px;
   display: grid;
   margin:none;
   padding: none;
