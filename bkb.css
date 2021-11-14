@@ -416,8 +416,8 @@
 }
 
 .gallery_container{
-  min-width: 1200px;
-  min-height: 1200px;
+  width: 1200px;
+  height: 1200px;
   padding: 2px;
   margin:2px;
 }
