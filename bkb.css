@@ -413,8 +413,8 @@
 }
 
 .gallery_container{
-  min-width: 1200px;
-  padding: none;
+  min-width: 1000px;
+  padding: 2px;
   margin:none;
 }
 
