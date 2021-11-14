@@ -384,10 +384,8 @@
   display: grid;
   margin:none;
   padding: none;
-  font-weight: lighter;
+  font-weight: bold;
   overflow-wrap: break-word;
-  font-size: 1rem;
-
 }
 
 .cell-2{
