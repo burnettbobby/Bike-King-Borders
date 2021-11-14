@@ -409,8 +409,8 @@
 }
 
 .gallery_container{
-  width: auto;
-  height: auto;
+  width: 1000px;
+  height: 3000px;
   padding: 2px;
   margin:2px;
 }
