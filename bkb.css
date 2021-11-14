@@ -410,7 +410,7 @@
 
 .gallery_container{
   width: 1000px;
-  height: 3000px;
+  height: max-content;
   padding: 2px;
   margin:2px;
 }
