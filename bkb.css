@@ -378,6 +378,12 @@
   " left left right right"
   "footer footer footer footer ";
   }
+
+  .cell-1 a:not(:first-child) {display: none;}
+  .cell-1 a.icon {
+    float: right;
+    display: block;
+  }
   .cell-1 .responsive {position: relative;}
   .cell-1 .responsive a.icon {
     position: absolute;
