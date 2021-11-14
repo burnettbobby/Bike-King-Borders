@@ -380,7 +380,7 @@
 .cell-1{
   grid-area: header;
   min-width: 1200px;
-  height: auto;
+  height: 1fr;
   display: grid;
   margin:none;
   padding: none;
