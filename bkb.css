@@ -392,6 +392,10 @@
   overflow-wrap: break-word;
   font-size: 2rem;
 }
+.nav a:hover {
+  background-blend-mode: soft-light;
+  text-decoration: underline yellow;
+}
 
 .cell-2{
   margin: 5px;
