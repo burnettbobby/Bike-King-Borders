@@ -393,14 +393,14 @@
   margin-top: 4px;
   grid-area: left;
   display: grid;
-  min-width: 200px;
+  min-width: 300px;
   max-height: auto;
 }
 .cell-3{
   margin-top: 2px;
   grid-area: right;
   display: grid;
-  min-width: 200px;
+  min-width: 300px;
   max-height: auto;
  }
 
@@ -410,7 +410,7 @@
   display: grid;
   margin: none;
   padding: none;
-  max-height: 100px;
+  max-height: 200px;
 }
 
 .gallery_container{
