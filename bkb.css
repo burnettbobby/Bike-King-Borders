@@ -379,26 +379,6 @@
   "footer footer footer footer ";
   }
 
-  .nav a:not(:first-child) 
-  {display: none;}
-
-  .nav a.icon {
-    float: right;
-    display: block;
-  }
-  .nav .responsive
-   {position: relative;}
-  
-   .nav .responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .nav .responsive a {
-    float: none;
-    display: none;
-    text-align: right;
-  }
 
 .cell-1{
   grid-area: header;
@@ -438,11 +418,5 @@
   padding: 2px;
   margin:none;
 }
-
-}
-@media screen and (min-width: 600px){
-  .nav a.icon {
-    display: none;
-  }
 
 }
