@@ -430,7 +430,7 @@
   display: grid;
   margin: none;
   padding: none;
-  max-height: 200px;
+  max-height: -200px;
 }
 
 .gallery_container{
