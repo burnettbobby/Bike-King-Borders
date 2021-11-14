@@ -393,13 +393,13 @@
   margin-top: 4px;
   grid-area: left;
   display: grid;
-  min-width: 600px;
+  min-width: 300px;
 }
 .cell-3{
   margin-top: 2px;
   grid-area: right;
   display: grid;
-  min-width: 600px;
+  min-width: 300px;
  }
 
 .cell-4{
