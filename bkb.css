@@ -411,7 +411,7 @@
   display: flex;
   margin: none;
   padding: none;
-  max-height: 300px;
+  max-height: auto;
 }
 
 .gallery_container{
