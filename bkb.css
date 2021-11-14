@@ -404,8 +404,10 @@
 
 .cell-4{
   grid-area: footer footer footer footer;
-  min-width: 600px;
+  min-width: 1200px;
   display: grid;
+  margin: none;
+  padding: none;
 }
 
 .gallery_container{
