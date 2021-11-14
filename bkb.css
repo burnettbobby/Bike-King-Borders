@@ -390,6 +390,7 @@
   padding: none;
   font-weight: bold;
   overflow-wrap: break-word;
+  font-size: 2rem;
 }
 
 .cell-2{
