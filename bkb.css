@@ -403,7 +403,7 @@
  }
 
 .cell-4{
-  grid-area: footer;
+  grid-area: footer footer footer footer;
   min-width: 600px;
   display: grid;
 }
