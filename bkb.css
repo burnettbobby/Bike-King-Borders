@@ -411,6 +411,7 @@
   display: grid;
   margin: none;
   padding: none;
+  max-height: 100px;
 }
 
 .gallery_container{
