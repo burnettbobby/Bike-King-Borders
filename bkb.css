@@ -375,8 +375,7 @@
   grid-template-rows: auto auto auto ;
   grid-template-areas:
   "header header header header" 
-  " . main main ."
-  ". main main . "
+  " left left right right"
   "footer footer footer footer ";
   }
   .cell-1 .responsive {position: relative;}
@@ -404,13 +403,13 @@
 
 .cell-2{
   margin-top: 4px;
-  grid-area: main;
+  grid-area: left;
   display: grid;
   min-width: 450px;
 }
 .cell-3{
   margin-top: 2px;
-  grid-area: main;
+  grid-area: right;
   display: grid;
   min-width: 450px;
  }
