@@ -379,13 +379,17 @@
   "footer footer footer footer ";
   }
 
-  .nav a:not(:first-child) {display: none;}
+  .nav a:not(:first-child) 
+  {display: none;}
+
   .nav a.icon {
     float: right;
     display: block;
   }
-  .nav .responsive {position: relative;}
-  .nav .responsive a.icon {
+  .nav .responsive
+   {position: relative;}
+  
+   .nav .responsive a.icon {
     position: absolute;
     right: 0;
     top: 0;
