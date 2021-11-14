@@ -377,6 +377,7 @@
   }
 
 .cell-1{
+  transform: scale(0.5);
   grid-area: header;
   min-width: 1200px;
   max-height: 400px;
