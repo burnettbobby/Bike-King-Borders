@@ -383,7 +383,7 @@
 
 .cell-1{
   grid-area: header;
-  min-width: 600px;
+  min-width: 1200px;
   min-height: 200px;
   display: grid;
   margin:none;
@@ -407,7 +407,7 @@
 
 .cell-4{
   grid-area: footer;
-  min-width: 600px;
+  min-width: 1200px;
   display: flex;
   margin: none;
   padding: none;
