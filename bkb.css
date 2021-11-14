@@ -378,7 +378,7 @@
 
 .cell-1{
   grid-area: header;
-  min-width: 600px;
+  min-width: auto;
   max-height: auto;
   display: grid;
   margin:none;
@@ -404,7 +404,7 @@
 
 .cell-4{
   grid-area: footer;
-  min-width: 600px;
+  min-width: auto;
   display: grid;
   margin: none;
   padding: none;
