@@ -394,12 +394,14 @@
   grid-area: left;
   display: grid;
   min-width: 300px;
+  max-height: auto;
 }
 .cell-3{
   margin-top: 2px;
   grid-area: right;
   display: grid;
   min-width: 300px;
+  max-height: auto;
  }
 
 .cell-4{
