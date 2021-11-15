@@ -410,6 +410,7 @@
 
 .gallery_container{
   transform: scale(1.5);
+  margin-left: 4rem;
 }
 
 }
