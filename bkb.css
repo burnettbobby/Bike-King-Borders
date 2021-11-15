@@ -345,7 +345,7 @@
 }
 .cell-4, footer {
   grid-area: footer;
-  background-color: rgba(255, 205, 205, 0.678);
+  background-color: rgb(255, 239, 239);
   border-style:solid;
   border-width: 0 0 0 0;
   border-color: rgb(25, 26, 25);
@@ -353,7 +353,7 @@
   font-weight: bolder;
   display: flex;
   width: 100vw;
-  padding-top: 3rem;
+  padding-top: 1.5rem;
   position: fixed;
   justify-content:center;
 
