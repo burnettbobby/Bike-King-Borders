@@ -382,7 +382,7 @@
   display: grid;
   font-weight: bold;
   overflow-wrap: break-word;
-  font-size: 2rem;
+  font-size: 4rem;
 }
 .nav a:hover {
   background-blend-mode: soft-light;
