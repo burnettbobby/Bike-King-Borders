@@ -368,7 +368,7 @@
 .container_1 {
   max-height: max-content;
   grid-template-columns: auto auto  ;
-  grid-template-rows: 0.5fr 3fr 1fr ;
+  grid-template-rows: auto auto auto ;
   grid-template-areas:
   "header header " 
   " left right"
@@ -382,7 +382,7 @@
   display: grid;
   font-weight: bold;
   overflow-wrap: break-word;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 .nav a:hover {
   background-blend-mode: soft-light;
